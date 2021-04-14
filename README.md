@@ -5,9 +5,9 @@ Usage:
 
 python3 compare.py \<option\> \<source_file\> \<dest_file\>  
 
-options - 
+options -   
 "-n", "--nomatch" - "Show strings that don't have a match"    
-"-m", "--matchonly" - "Print a list of matching strings only"
+"-m", "--matchonly" - "Print a list of matching strings only"  
 "-d", "--dontmatch" - "Print a list of strings that don't match"  
 "-x", "--exactmatch" - "Print a list of strings that match exactly"   
   
