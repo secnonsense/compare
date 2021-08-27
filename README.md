@@ -10,6 +10,7 @@ options -
 "-m", "--matchonly" - "Display matching strings only with no other verbiage"  
 "-d", "--dontmatch" - "Print a list of strings that don't match with no other verbiage"  
 "-x", "--exactmatch" - "Print a list of strings that match exactly"   
+"-i", "--ignore_case" - "Ignore Case"    
   
 source_file -  The file containing strings to compare   
 dest_file   -  The file containing strings to be compared to  
