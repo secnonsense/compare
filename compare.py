@@ -3,21 +3,23 @@
 import argparse
 
 def compare_string(string1,string2,nomatch=0,i=0,d=0,x=0,ignore=0):
+    string1a=string1
+    string2a=string2
     if ignore:
         string1=string1.lower()
         string2=string2.lower()
     if string1 in string2 and x==0:
         if i==1 and d==0:
-                print(string1)
+                print(string1a)
         elif i==0 and d==0:
-            print(f"string {string1} matches {string2}")
+            print(f"string {string1a} matches {string2a}")
         toggle=1
         return toggle
     if string1 == string2 and x==1:
         if i==1 and d==0:
-                print(string1)
+                print(string1a)
         elif i==0 and d==0:
-            print(f"string {string1} matches {string2}")
+            print(f"string {string1a} matches {string2a}")
         toggle=1
         return toggle
 
