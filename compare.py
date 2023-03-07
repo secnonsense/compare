@@ -11,7 +11,7 @@ def compare_string(string1,string2,nomatch=0,i=0,d=0,x=0,ignore=0,matchdest=0):
     if string1 in string2 and x==0:
         if i==1 and d==0:
             print(string1a)
-        elif i==1 and d==0 and matchdest=1:
+        elif i==1 and d==0 and matchdest==1:
             print(string2a)
         elif i==0 and d==0:
             print(f"string {string1a} matches {string2a}")
