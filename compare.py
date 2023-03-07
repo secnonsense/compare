@@ -51,7 +51,7 @@ def parse_args():
     parser.add_argument("-m", "--matchonly", help="Print a list of matching strings only", action="store_true")
     parser.add_argument("-d", "--dontmatch", help="Print a list of strings that don't match", action="store_true")
     parser.add_argument("-x", "--exactmatch", help="Print a list of strings that match exactly", action="store_true")
-    parser.add_argument("-w", "--matchdest", help="Print a list of what has been matched", action="store_true")
+    parser.add_argument("-w", "--matchdest", help="Print a list of what has been matched against", action="store_true")
     parser.add_argument("-i", "--ignore_case", help="Ignore Case", action="store_true")
     parser.add_argument("source", help="Enter a file with strings to be compared")
     parser.add_argument("dest", help="Enter a file with strings to compare to")
